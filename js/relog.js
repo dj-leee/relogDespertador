@@ -1,10 +1,9 @@
 const displayRelog = document.getElementById('relog')
 
-displayCrono.textContent = '00:00:00'
 
 
 
-class Relog{
+export class Relog{
     constructor(){}
     mostrarHora(){
         setInterval(() => {
@@ -24,7 +23,9 @@ class Relog{
 }
 
 const relog = new Relog()
+
 relog.mostrarHora()
+
 
 
 

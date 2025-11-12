@@ -7,7 +7,7 @@ displayTemp.textContent = '00:00:00'
 btnTemp.textContent = 'Iniciar'
 btnResetTemp.textContent = 'Reset'
 
-class Temporizador{
+export class Temporizador{
     constructor(hora, minuto, segundo,){
         this.hora = hora;
         this.minuto = minuto;

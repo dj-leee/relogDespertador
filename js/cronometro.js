@@ -7,7 +7,7 @@ displayCrono.textContent = '00:00:00'
 btnCrono.textContent = 'Iniciar'
 btnReset.textContent = 'Reset'
 
-class Cronometro{
+export class Cronometro{
     constructor(hora, minuto, segundo,){
         this.hora = hora;
         this.minuto = minuto;

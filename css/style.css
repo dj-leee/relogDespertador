@@ -4,7 +4,13 @@ body{
     font-size: 32px;
     height: 100dvh;
     display: grid;
-    background-color: #A5D6A7; /* Verde claro para el fondo */
+    background-color: #3ae14030; /* Verde claro para el fondo */
+    background-image: url('../img/fondoPopup.avif');
+    background-size: cover;
+    background-blend-mode: overlay;
+    place-items: center;
+    overflow: hidden;
+    
     border-radius: 20px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr, repeat(3,auto);
@@ -26,7 +32,8 @@ header{
     border-radius: 15px;
     align-self: center;
     text-align: center;
-    background-color: #E8F5E9; /* Verde muy claro para el reloj */
+    background-color: #c3edc6; /* Verde muy claro para el reloj */
+    padding: 10px 30px;
 }
 
 
@@ -114,6 +121,9 @@ header{
     background-color: #1B5E20; /* Verde muy oscuro */
     color: white;
     cursor: pointer;
+    grid-row: 4/5;
+    grid-column: 1/4;
+    align-self: center
     
 }
 
@@ -188,3 +198,4 @@ header{
     opacity: 0;
     
 }
+
